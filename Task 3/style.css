@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+}
+.container {
+    margin: 20px;
+    width: 650px;
+}
+
+.contol {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 60%;
+    margin-right: auto;
+}
+
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    
+    margin-left: 15px;
+    padding: 15px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background: #9bb0ff;
+    transition: 0.3s;
+}
+  
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.output div {
+    display: flex;
+    padding: 15px 15px;
+    border: 2px solid #9bb0ff;
+    border-radius: 5px;
+}
+
+.output div:nth-child(2n) {
+    align-self: flex-start;
+}
